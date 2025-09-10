@@ -1,99 +1,127 @@
 {
-	"titleNameMap": {
-		"educationList": "教育背景",
-		"workExpList": "工作经历",
-		"projectList": "项目经历",
-		"skillList": "个人技能",
-		"awardList": "更多信息",
-		"workList": "个人作品",
-		"aboutme": "自我介绍"
-	},
-	"avatar": {
-		"src": "https://avatars.githubusercontent.com/u/39819298?v=4",
-		"hidden": false
-	},
-	"profile": {
-		"name": "徐新兵",
-		"email": "bingxyz@vip.qq.com",
-		"mobile": "198192123205",
-		"github": "",
-		"zhihu": "",
-		"workExpYear": "4年",
-		"workPlace": "北京",
-		"positionTitle": "测试开发工程师"
-	},
-	"educationList": [{
-		"edu_time": ["2013.09.01", "2017.06.30"],
-		"school": "烟台大学",
-		"major": "测控技术与仪器",
-		"academic_degree": "本科",
-		"dataIndex": 0
-	}, {
-		"edu_time": ["2017.09.01", "2021.06.30"],
-		"school": "东北大学",
-		"major": "控制工程（硕士）",
-		"dataIndex": 1
-	}],
-	"awardList": [{
-		"award_info": "英语 CET6",
-		"award_time": "2018",
-		"dataIndex": 0
-	}],
-	"workExpList": [{
-		"company_name": "百度",
-		"department_name": "测试开发工程师 MEG移动生态质量效能部",
-		"work_time": ["2024.01", "2025.08"],
-		"work_desc": "• 负责百度大搜系统中的排序相关模块的项目测试，并编写测试方案、测试执行、缺陷跟踪以及编写测试报告;\n• 完善模块流水线的质量卡位和数据工具建设，创建并日常维护测试环境和测试工具；\n•对模块流量进行引流、录制回放，并对项目进行cr走查、diff、性能、stable和模型测试，协助研发排查线上问题，摘线上机器进行解core和bug复现；\n•负责搜索策略建康度监控建设开发，运用群机器人、邮件等手段报警，协助相关负责人定位问题。",
-		"dataIndex": 0
-	}, {
-		"company_name": "百度",
-		"department_name": "测试开发工程师 ACG智能云产品质量部",
-		"work_time": ["2021.08", "2023.12"],
-		"work_desc": "• 负责多个tob产品，在项目中负责编写测试方案、测试执行、缺陷跟踪以及编写测试报告:\n• 使用Python、Shell和k8s进行自动化Linux测试环境的搭建和部署演练\n•日常维护产品流水线，完善测试卡位工具，从需求评审到代码提交，从标品发布到产品交付，全生命周期进行质量保障；\n•完善python测试框架和脚本，提高用户用例覆盖率，并协助产品部署和验收;\n•参与功能性、效果、兼容性、性能与稳定性测试。",
-		"dataIndex": 1
-	}],
-	"skillList": [{
-		"skill_name": "Python",
-		"skill_desc": "",
-		"skill_level": 90,
-		"dataIndex": 0
-	}, {
-		"skill_name": "自动化测试框架（前/后端）",
-		"skill_level": 90,
-		"dataIndex": 1,
-		"skill_desc": ""
-	}, {
-		"skill_name": "k8s运维经验",
-		"skill_desc": "",
-		"skill_level": 60,
-		"dataIndex": 2
-	}, {
-		"skill_name": "监控框架搭建",
-		"skill_desc": "",
-		"skill_level": 80,
-		"dataIndex": 3
-	}],
-	"projectList": [{
-		"project_name": "大搜排序模块测试项目",
-		"project_role": "模块测试负责人",
-		"project_time": "2024.01 - 2025.08（1年8个月）",
-		"project_desc": "百度搜索的基础搜索系统主要构成有展现、排序、召回、离线等子系统。其中排序方面有若干模块，主要功能是对query召回的url进行打分和排序。项目主要技术构成为c++、倒排索引、gbrank等。",
-		"project_content": "1、了解需求，进行代码审查、diff和压测，判断是否准入与准出；\n2、引流线上流量，开发脚本对流量和词典进行筛选、存储；\n3、开发eos环境部署脚本和cardan压力测试脚本，创建模块的测试环境和自动化测试方案；\n4、维护流水线日常运行，完善准入准出卡位工具，协助策略和架构研发进行bug排查定位；\n5、参与开发testone平台和训练机器学习模型，利用文心大模型、如流工作卡、icode等厂内基建设施，将代码、测试报告、模块日志、历史数据数据纳入统一管理，实现AIQA无人值守过单率90％以上；\n6、参与开发策略健康度框架，使用django+celery+crontab+群机器人，统一管理debug抓取和MR等形式线上监控指标报警；\n7、利用公司大模型平台开发个人agent，协助测试人员进行信息管理和测试流程管理。",
-		"dataIndex": 0
-	}, {
-		"project_name": "开物工业互联网项目",
-		"project_role": "项目测试负责人",
-		"project_time": "2021.08 - 2023.12（2年5个月）",
-		"project_desc": "百度智能云开物互联网平台分别由门户、工业设备和数据平台、企业数智化平台、一见视觉大模型\n平台等构成，是一个面向企业数字化转型，提供数字资产的的集中管控、Al 应用开发的数智化平台，主要技术构\n成为 java、Rocket MQ、MySQL、redis、k8s、langflow",
-		"project_content": "1、介入需求、UE、接口等评审,提出建议,编写测试方案、测试用例并进行评审,记录bug卡片,闭环历史遗留需求和bug,编写产品测试报告。\n2、针对产品特性,使用python+locust进行压测,使用chaosblade进行稳定性测试,找出性能瓶颈,提出改进方案。\n3、参与产品测试环境云原生改造和运维,并多次对业务模块和中间件进行k8s部署演练,完善全局变量配置,整理自动化验收用例,形成一整套场景部署验收流程和方案；\n4、日常随版本迭代更新补充场景、接口、UI等自动化用例,并利用bugbye、猫头鹰工具,在change流水线介入静态代码、安全测试、功能回归等准入准出卡位,并向研发宣贯质量意识；\n5、主导Al应用质量保障方案,支持LangFlow和PromptFlow集成测试；\n6、利用jacoco覆盖率工具代码插桩,建设自动化测试工具精准测试机制。",
-		"dataIndex": 1
-	}],
-	"workList": [],
-	"aboutme": {
-		"aboutme_desc": "四年测试开发经验：\n一年半搜索搜索系统测试开发经验，让我对测试全流程技术有扎实掌握：熟悉搜索系统的策略测试、模型验证与流量回放逻辑，对倒排索引验证、相关性算法测试等搜索专属技术也深入实践。\n两年半工业互联网平台的云原生部署测试，我掌握全流程测试技术与多系统适配能力：从需求评审拆解业务，到黑盒场景覆盖、白盒代码验证，再到自动化用例维护，形成标准化方法论，让我对 ToB 产品的功能、性能与稳定性测试均有涉猎，"
-	},
-	"theme": {
-		"color": "#2f5785",
-		"tagColor": "#8bc34a"
-	}
+    "titleNameMap": {
+        "educationList": "教育背景",
+        "workExpList": "工作经历",
+        "projectList": "项目经历",
+        "skillList": "个人技能",
+        "awardList": "更多信息",
+        "workList": "个人作品",
+        "aboutme": "自我介绍"
+    },
+    "avatar": {
+        "src": "https://avatars.githubusercontent.com/u/39819298?v=4",
+        "hidden": false
+    },
+    "profile": {
+        "name": "徐新兵",
+        "email": "bingxyz@vip.qq.com",
+        "mobile": "198192123205",
+        "github": "",
+        "zhihu": "",
+        "workExpYear": "4年",
+        "workPlace": "北京",
+        "positionTitle": "测试开发工程师"
+    },
+    "educationList": [
+        {
+            "edu_time": [
+                "2013.09.01",
+                "2017.06.30"
+            ],
+            "school": "烟台大学",
+            "major": "测控技术与仪器",
+            "academic_degree": "本科",
+            "dataIndex": 0
+        },
+        {
+            "edu_time": [
+                "2017.09.01",
+                "2021.06.30"
+            ],
+            "school": "东北大学",
+            "major": "控制工程（硕士）",
+            "dataIndex": 1
+        }
+    ],
+    "awardList": [
+        {
+            "award_info": "英语 CET6",
+            "award_time": "2018",
+            "dataIndex": 0
+        }
+    ],
+    "workExpList": [
+        {
+            "company_name": "百度",
+            "department_name": "测试开发工程师 MEG移动生态质量效能部",
+            "work_time": [
+                "2024.01",
+                "2025.08"
+            ],
+            "work_desc": "• 负责百度大搜系统中的排序相关模块的项目测试，并编写测试方案、测试执行、缺陷跟踪以及编写测试报告;\n• 完善模块流水线的质量卡位和数据工具建设，创建并日常维护测试环境和测试工具；\n•对模块流量进行引流、录制回放，并对项目进行cr走查、diff、性能、stable和模型测试，协助研发排查线上问题，摘线上机器进行解core和bug复现；\n•负责搜索策略建康度监控建设开发，运用群机器人、邮件等手段报警，协助相关负责人定位问题。",
+            "dataIndex": 0
+        },
+        {
+            "company_name": "百度",
+            "department_name": "测试开发工程师 ACG智能云产品质量部",
+            "work_time": [
+                "2021.08",
+                "2023.12"
+            ],
+            "work_desc": "• 负责多个tob产品，在项目中负责编写测试方案、测试执行、缺陷跟踪以及编写测试报告:\n• 使用Python、Shell和k8s进行自动化Linux测试环境的搭建和部署演练\n•日常维护产品流水线，完善测试卡位工具，从需求评审到代码提交，从标品发布到产品交付，全生命周期进行质量保障；\n•完善python测试框架和脚本，提高用户用例覆盖率，并协助产品部署和验收;\n•参与功能性、效果、兼容性、性能与稳定性测试。",
+            "dataIndex": 1
+        }
+    ],
+    "skillList": [
+        {
+            "skill_name": "Python",
+            "skill_desc": "",
+            "skill_level": 90,
+            "dataIndex": 0
+        },
+        {
+            "skill_name": "自动化测试框架（前/后端）",
+            "skill_level": 90,
+            "dataIndex": 1,
+            "skill_desc": ""
+        },
+        {
+            "skill_name": "k8s运维经验",
+            "skill_desc": "",
+            "skill_level": 60,
+            "dataIndex": 2
+        },
+        {
+            "skill_name": "监控框架搭建",
+            "skill_desc": "",
+            "skill_level": 80,
+            "dataIndex": 3
+        }
+    ],
+    "projectList": [
+        {
+            "project_name": "大搜排序模块测试项目",
+            "project_role": "模块测试负责人",
+            "project_time": "2024.01 - 2025.08（1年8个月）",
+            "project_desc": "百度搜索的基础搜索系统主要构成有展现、排序、召回、离线等子系统。其中排序方面有若干模块，主要功能是对query召回的url进行打分和排序。项目主要技术构成为c++、倒排索引、gbrank等。",
+            "project_content": "1、了解需求，进行代码审查、diff和压测，判断是否准入与准出；\n2、引流线上流量，开发脚本对流量和词典进行筛选、存储；\n3、开发eos环境部署脚本和cardan压力测试脚本，创建模块的测试环境和自动化测试方案；\n4、维护流水线日常运行，完善准入准出卡位工具，协助策略和架构研发进行bug排查定位；\n5、参与开发testone平台和训练机器学习模型，利用文心大模型、如流工作卡、icode等厂内基建设施，将代码、测试报告、模块日志、历史数据数据纳入统一管理，实现AIQA无人值守过单率90％以上；\n6、参与开发策略健康度框架，使用django+celery+crontab+群机器人，统一管理debug抓取和MR等形式线上监控指标报警；\n7、利用公司大模型平台开发个人agent，协助测试人员进行信息管理和测试流程管理。",
+            "dataIndex": 0
+        },
+        {
+            "project_name": "开物工业互联网项目",
+            "project_role": "项目测试负责人",
+            "project_time": "2021.08 - 2023.12（2年5个月）",
+            "project_desc": "百度智能云开物互联网平台分别由门户、工业设备和数据平台、企业数智化平台、一见视觉大模型\n平台等构成，是一个面向企业数字化转型，提供数字资产的的集中管控、Al 应用开发的数智化平台，主要技术构\n成为 java、Rocket MQ、MySQL、redis、k8s、langflow",
+            "project_content": "1、介入需求、UE、接口等评审,提出建议,编写测试方案、测试用例并进行评审,记录bug卡片,闭环历史遗留需求和bug,编写产品测试报告。\n2、针对产品特性,使用python+locust进行压测,使用chaosblade进行稳定性测试,找出性能瓶颈,提出改进方案。\n3、参与产品测试环境云原生改造和运维,并多次对业务模块和中间件进行k8s部署演练,完善全局变量配置,整理自动化验收用例,形成一整套场景部署验收流程和方案；\n4、日常随版本迭代更新补充场景、接口、UI等自动化用例,并利用bugbye、猫头鹰工具,在change流水线介入静态代码、安全测试、功能回归等准入准出卡位,并向研发宣贯质量意识；\n5、主导Al应用质量保障方案,支持LangFlow和PromptFlow集成测试；\n6、利用jacoco覆盖率工具代码插桩,建设自动化测试工具精准测试机制。",
+            "dataIndex": 1
+        }
+    ],
+    "workList": [],
+    "aboutme": {
+        "aboutme_desc": "四年测试开发经验：\n一年半搜索系统测试开发经验，让我对搜索后端质效保障全流程技术有扎实掌握：熟悉搜索系统的策略测试、监控排查、模型验证与流量回放逻辑，对相关的搜索测试技术也进行了深入实践。\n两年半工业互联网平台的云原生部署测试，我掌握全流程测试技术与多系统适配能力：从需求评审拆解业务，到黑盒场景覆盖、白盒代码验证，再到自动化用例维护，形成标准化方法论，让我对 ToB 产品的功能、性能与稳定性测试均有涉猎。"
+    },
+    "theme": {
+        "color": "#2f5785",
+        "tagColor": "#8bc34a"
+    }
 }
